@@ -1,10 +1,9 @@
 ---
-date: '2018-05-14'
-title: 'Engineer'
-company: 'Upstatement'
-location: 'Boston, MA'
-range: 'May 2018 - Present'
-url: 'https://www.upstatement.com/'
+title: 'Intern'
+company: 'IPMA'
+location: 'Matosinhos, PT'
+range: 'March 2018 - May 2019'
+url: 'http://www.ipma.pt/pt/index.html/'
 ---
 
 - Write modern, performant, maintainable code for a diverse array of client and internal projects
