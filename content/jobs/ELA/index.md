@@ -6,6 +6,6 @@ range: 'July - August 2017'
 url: 'https://www.facebook.com/pages/category/Nonprofit-Organization/Esta%C3%A7%C3%A3o-Litoral-da-Aguda-219119701500171/'
 ---
 
-- Worked with a team of three designers to build a marketing website and e-commerce platform for [blistabloc](https://blistabloc.com), an ambitious startup originating from Northeastern
-- Helped solidify a brand direction for blistabloc that spans both packaging and web
-- Interfaced with clients on a weekly basis, providing technological expertise
+- Worked with the team of ELA and got to know all about the aquariums, how they functioned, how to clean them and how to resolve some usual problems that occur
+- Had the chance to feed the animals everyday and to observe their behaviour towards humans and each other
+- I took part in the collection of some algae and invertebrate organisms to add to the aquariums

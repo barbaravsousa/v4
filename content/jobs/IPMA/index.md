@@ -6,6 +6,5 @@ range: 'March 2018 - May 2019'
 url: 'http://www.ipma.pt/pt/index.html/'
 ---
 
-- Write modern, performant, maintainable code for a diverse array of client and internal projects
-- Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, Wordpress, Prismic, and Netlify
-- Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis
+- The work I executed in IPMA was within the [PNAB](https://www.ipma.pt/pt/investigacao/pescas/projetos.detail.html?f=/pt/investigacao/pescas/PNAB.html), I was able to take part in the process of sampling, in the laboratory and in the auction centre
+-
