@@ -95,7 +95,7 @@ const StyledTable = styled.table`
 `;
 
 const ArchivePage = ({ location, data }) => {
-  const projects = data.allMarkdownRemark.edges;
+  const skills = data.allMarkdownRemark.edges;
 
   const revealTitle = useRef(null);
   const revealTable = useRef(null);
@@ -131,8 +131,8 @@ const ArchivePage = ({ location, data }) => {
               </tr>
             </thead>
             <tbody>
-              {projects.length > 0 &&
-                projects.map(({ node }, i) => {
+              {skills.length > 0 &&
+                skills.map(({ node }, i) => {
                   const {
                     date,
                     github,
@@ -224,7 +224,7 @@ export default ArchivePage;
 export const pageQuery = graphql`
   {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/projects/" } }
+      filter: { fileAbsolutePath: { regex: "/skills/" } }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {

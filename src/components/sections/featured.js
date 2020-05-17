@@ -215,7 +215,7 @@ const Featured = ({ data }) => {
   }, []);
 
   return (
-    <StyledContainer id="projects">
+    <StyledContainer id="skills">
       <Heading ref={revealTitle}>Some Things I&apos;ve Built</Heading>
 
       <div>
