@@ -1,6 +1,6 @@
 ---
 date: '3'
-title: 'python'
+title: 'Python'
 percentage: '40'
 dataset: 'knowledge'
 ---

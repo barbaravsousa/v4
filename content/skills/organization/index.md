@@ -1,6 +1,6 @@
 ---
 date: '3'
-title: 'organization'
+title: 'Organization'
 percentage: '90'
 dataset: 'soft skills'
 ---

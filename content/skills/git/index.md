@@ -1,6 +1,6 @@
 ---
 date: '3'
-title: 'git'
+title: 'Git'
 percentage: '20'
 dataset: 'knowledge'
 ---

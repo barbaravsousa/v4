@@ -1,6 +1,6 @@
 ---
 date: '3'
-title: 'problem-solving'
+title: 'Problem Solving'
 percentage: '80'
 dataset: 'soft skills'
 ---

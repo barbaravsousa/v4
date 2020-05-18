@@ -17,68 +17,56 @@ const Skills = ({ data }) => {
   const canvasRef = useRef(null);
   const revealProjects = useRef([]);
   useEffect(() => {
-    const defaultColors = [
-      {
-        backgroundColor: 'rgba(179,181,198,0.2)',
-        borderColor: 'rgba(179,181,198,1)',
-        pointBackgroundColor: 'rgba(179,181,198,1)',
-      },
-      {
-        backgroundColor: 'rgba(255,99,132,0.2)',
-        borderColor: 'rgba(255,99,132,1)',
-        pointBackgroundColor: 'rgba(255,99,132,1)',
-      },
-      {
-        backgroundColor: 'rgba(152,251,152,1)',
-        borderColor: 'rgba(34,139,34,1)',
-        pointBackgroundColor: 'rgba(34,139,34,1)',
-      },
-    ];
-    let colorsIndex = 0;
-    const datasetTitles = new Set();
-    data.forEach(element => datasetTitles.add(element.node.frontmatter.dataset));
-    const labels = data.map(element => element.node.frontmatter.title);
-    const datasets = [];
-    for (const title of datasetTitles) {
-      datasets.push({
-        label: title,
-        fill: true,
-        ...defaultColors[colorsIndex],
-        data: Array.from({ length: labels.length }).fill(0),
-      });
-      colorsIndex = (colorsIndex + 1) % defaultColors.length;
-    }
-    for (let i = 0; i < data.length; i++) {
-      const key = data[i].node.frontmatter.dataset;
-      for (const dataset of datasets) {
-        if (key === dataset.label) {
-          dataset.data[i] = parseFloat(data[i].node.frontmatter.percentage);
-          break;
-        }
-      }
+    const labels = [];
+    const dataset = {
+      label: 'Ability',
+      fill: true,
+      backgroundColor: 'rgba(180,226,221,0.2)',
+      borderColor: 'rgba(51,133,122,1)',
+      pointBorderColor: '#fff',
+      pointBackgroundColor: 'rgba(51,133,122,1)',
+      data: [],
+    };
+    for (const element of data) {
+      const obj = element.node.frontmatter;
+      labels.push(obj.title);
+      dataset.data.push(parseFloat(obj.percentage));
     }
 
     new Chart(canvasRef.current, {
       type: 'radar',
       data: {
         labels: labels,
-        datasets: datasets,
+        datasets: [dataset],
       },
-      options: {},
+      options: {
+        scale: {
+          responsive: true,
+          lineArc: false,
+          gridLines: {
+            color: 'rgba(255, 255, 255, 0.1)',
+          },
+          pointLabels: {
+            fontSize: 14,
+            fontColor: 'rgba(136, 146, 176, 1)',
+          },
+          ticks: {
+            backdropColor: 'rgba(10, 25, 47, 1)',
+          },
+        },
+        legend: {
+          display: false,
+        },
+      },
     });
     sr.reveal(revealTitle.current, srConfig());
     revealProjects.current.forEach((ref, i) => sr.reveal(ref, srConfig(i * 100)));
   }, []);
 
-  // TODO: map data to args needed by chart.js
-  // TODO: chart.js chart like https://github.com/jarrekk/Jalpc/blob/0f11fe02c6793601caa6afc78a449074a7045845/_includes/sections/skills.html
-
   return (
     <StyledContainer id="skills">
       <Heading ref={revealTitle}>Skills</Heading>
       <canvas ref={canvasRef} width="800" height="600"></canvas>
-
-      <div>Hello World</div>
     </StyledContainer>
   );
 };

@@ -1,6 +1,6 @@
 ---
 date: '3'
-title: 'comunication'
+title: 'Comunication'
 percentage: '80'
 dataset: 'soft skills'
 ---
