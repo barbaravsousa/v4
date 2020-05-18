@@ -1,5 +1,6 @@
 ---
 date: '3'
-title: 'teamwork'
+title: 'Teamwork'
 percentage: '90'
+dataset: 'soft skills'
 ---
