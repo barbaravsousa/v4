@@ -1,38 +1,23 @@
 module.exports = {
-  siteTitle: 'Brittany Chiang | Software Engineer',
-  siteDescription:
-    'Brittany Chiang is a software engineer based in Boston, MA who specializes in building (and occasionally designing) exceptional websites, applications, and everything in between.',
+  siteTitle: 'Bárbara Sousa | Science and Software ',
+  siteDescription: 'Barbara\'s web portfolio .',
   siteKeywords:
-    'Brittany Chiang, Brittany, Chiang, bchiang7, software engineer, front-end engineer, web developer, javascript, northeastern',
-  siteUrl: 'https://brittanychiang.com',
+    'Barbara Sousa, Barbara, Sousa, barbaravsousa, aquatic sciences, front-end engineer, web developer, javascript',
+  siteUrl: 'http://barbaravsousa.github.io/',
   siteLanguage: 'en_US',
-  googleAnalyticsID: 'UA-45666519-2',
-  googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
-  name: 'Brittany Chiang',
-  location: 'Boston, MA',
-  email: 'brittany.chiang@gmail.com',
-  github: 'https://github.com/bchiang7',
-  twitterHandle: '@bchiang7',
+  name: 'Bárbara Sousa',
+  location: 'Porto, Portugal',
+  email: 'barbaravieirasousa@gmail.com',
+  github: 'https://github.com/barbaravsousa',
+  twitterHandle: '',
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/barbaravsousa',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
-    },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
-    },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
-    },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      url: 'https://www.linkedin.com/in/barbaravsousa',
     },
   ],
 
@@ -46,8 +31,8 @@ module.exports = {
       url: '/#jobs',
     },
     {
-      name: 'Work',
-      url: '/#projects',
+      name: 'Skills',
+      url: '/#skills',
     },
     {
       name: 'Contact',

@@ -1,4 +1,5 @@
 {
+  "homepage": "http://barbaravsousa.github.io/v4",
   "name": "v4",
   "description": "Personal Website V4",
   "version": "1.0.0",
@@ -17,7 +18,9 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d public"
   },
   "husky": {
     "hooks": {
@@ -35,6 +38,7 @@
   "dependencies": {
     "animejs": "^3.1.0",
     "babel-plugin-styled-components": "^1.10.6",
+    "chart.js": "^2.9.3",
     "gatsby": "^2.18.7",
     "gatsby-image": "^2.2.34",
     "gatsby-plugin-google-analytics": "^2.1.29",
@@ -72,6 +76,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0",
     "gatsby-remark-code-titles": "^1.1.0",
+    "gh-pages": "^2.2.0",
     "husky": "^4.2.3",
     "lint-staged": "^10.1.2",
     "prettier": "^2.0.4"
