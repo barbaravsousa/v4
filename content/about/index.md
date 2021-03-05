@@ -7,4 +7,4 @@ I graduated from [Instituto de Ciências Biomédicas](https://sigarra.up.pt/icba
 
 While I decided the next step for me, I started to learn about programming,which I thought was useful addition to my course, and web development. 
 
-I'm currently taking a graduate degree in software development, [SWitCH](https://portotechhub.com/switch/) in [Instituto Superior de Engenheria do Porto](https://www.isep.ipp.pt/). 
+I'm currently taking a graduate degree in software development, [SWitCH](https://portotechhub.com/switch/) in [Instituto Superior de Engenharia do Porto](https://www.isep.ipp.pt/). 
