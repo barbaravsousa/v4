@@ -1,6 +1,6 @@
 ---
 date: '3'
 title: 'Java'
-percentage: '50'
+percentage: '70'
 dataset: 'knowledge'
 ---

@@ -1,6 +1,6 @@
 ---
 date: '3'
 title: 'Web Development'
-percentage: '50'
+percentage: '60'
 dataset: 'knowledge'
 ---
